@@ -15,6 +15,9 @@ class Product {
         $this->category = $_category;
         $this->img = $_img;
     }
+    function getDetails() {
+        return "";
+    }
 
 
 }

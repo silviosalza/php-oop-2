@@ -11,6 +11,9 @@ class Toy extends Product {
         parent::__construct( $_name, $_price, $_category, $_img);
         $this->material = $_material;
     }
+    function getDetails() {
+        return "{$this->material}";
+    }
 }
 
 
